@@ -1,0 +1,194 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  color: white;
+  background: url('https://cdn.midjourney.com/69e89983-352b-4213-b0e3-4080caa1ae2c/0_2.png') center/cover no-repeat;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100%;
+  padding: 1rem 2rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 1rem;
+}
+
+.logo {
+  font-weight: 800;
+  font-size: 1.3rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 2rem;
+  font-weight: 600;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.content {
+  flex: 1;
+  max-width: 480px;
+  padding-top: 2rem;
+}
+
+.content h1 {
+  font-size: 2.8rem;
+  font-weight: 800;
+  line-height: 1.3;
+  margin-bottom: 1rem;
+}
+
+.content p {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  color: #ccc;
+}
+
+.btn-download {
+  background: #1976f2;
+  color: white;
+  padding: 0.8rem 1.6rem;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.badges img {
+  height: 50px;
+  margin-right: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.about h3 {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+}
+
+footer {
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+.mockup {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.iphone {
+  width: 320px;
+  background: #0d1229;
+  border-radius: 32px;
+  padding: 1rem;
+  box-shadow: 0 0 30px rgba(0,0,0,0.6);
+  border: 4px solid #222;
+}
+
+.live {
+  color: #00e1ff;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.field {
+  background: radial-gradient(#0c1c35, #050a1f);
+  height: 160px;
+  border-radius: 16px;
+  position: relative;
+}
+
+.flames.blue {
+  background: url('https://i.imgur.com/zx3v4Ue.png') center/contain no-repeat;
+  position: absolute;
+  left: 10px;
+  top: 20px;
+  width: 60px;
+  height: 100px;
+}
+
+.flames.red {
+  background: url('https://i.imgur.com/gDY7twx.png') center/contain no-repeat;
+  position: absolute;
+  right: 10px;
+  top: 20px;
+  width: 60px;
+  height: 100px;
+}
+
+.stats {
+  padding-top: 1rem;
+}
+
+.vs-row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.player .jersey {
+  font-weight: bold;
+  font-size: 1rem;
+  margin-bottom: 0.3rem;
+}
+
+.player .xp {
+  font-size: 1.5rem;
+  color: #00bfff;
+  font-weight: bold;
+}
+
+.vs {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.summary {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.summary .col {
+  flex: 1;
+}
+
+.table {
+  background: #111;
+  border-radius: 10px;
+  padding: 0.5rem;
+}
+
+.table .row {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.4rem 0;
+  border-bottom: 1px solid #333;
+}
+
+.table .header {
+  font-weight: bold;
+  color: #00e1ff;
+  border-bottom: 1px solid #00e1ff;
+}
